@@ -11,8 +11,8 @@ branches:
   - dev
 deploy:
   provider: heroku
-  api_key:
-    secure: ADD_API_KEY_HERE
+  api_key: 
+    secure: 3f0922f6-1484-4b0d-abeb-2c5e834cb6b4
   app:
     main: node-hello-world91
     dev: node-hello-world-staging1
