@@ -8,3 +8,11 @@ script:
 branches:
   only:
     - main
+    - dev
+deploy:
+  provider: heroku
+  api_key:
+    secure: ADD_API_KEY_HERE
+  app:
+    main: node-hello-world91
+    dev: node-hello-world-staging1
